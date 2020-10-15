@@ -1,0 +1,33 @@
+body {
+  color: red;
+}
+ul {
+  list-style: none;
+}
+
+.logo {
+  color: blue;
+}
+
+.studia {
+  color: black;
+}
+
+.portfolio {
+  color: black;
+}
+
+.portfolio:hover {
+  color: rgba(33, 150, 243, 1);
+}
+.contact {
+  color: black;
+}
+
+.mail {
+  color: rgba(117, 117, 117, 1);
+}
+
+.tel {
+  color: rgba(117, 117, 117, 1);
+}
