@@ -73,15 +73,26 @@
   --gray: #9da4bb;
 }
 
-.logo{
+.colortext{
   font-family: Raleway;
 font-weight: 700;
 font-size: 26px;
 line-height:1.19;
 letter-spacing: 0.03em;
-color: #2196F3;
-text-decoration: none;
+color: var(--accent-cl)
+text-decoration: none; 
 }
+
+.colortext-black{
+  font-family: Raleway;
+font-weight: 700;
+font-size: 26px;
+line-height:1.19;
+letter-spacing: 0.03em;
+color: var(--black)
+text-decoration: none; 
+}
+
 
 header {
   font-family: Roboto, sans-serif;
