@@ -1,3 +1,29 @@
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/raleway-v18-latin-regular.eot'); 
+  src: local(''),
+       url('../fonts/raleway-v18-latin-regular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/raleway-v18-latin-regular.woff2') format('woff2'), 
+       url('../fonts/raleway-v18-latin-regular.woff') format('woff'), 
+       url('../fonts/raleway-v18-latin-regular.ttf') format('truetype'),
+       url('../fonts/raleway-v18-latin-regular.svg#Raleway') format('svg'); 
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/raleway-v18-latin-700.eot'); 
+  src: local(''),
+       url('../fonts/raleway-v18-latin-700.eot?#iefix') format('embedded-opentype'), 
+       url('../fonts/raleway-v18-latin-700.woff2') format('woff2'), 
+       url('../fonts/raleway-v18-latin-700.woff') format('woff'),
+       url('../fonts/raleway-v18-latin-700.ttf') format('truetype'), 
+       url('../fonts/raleway-v18-latin-700.svg#Raleway') format('svg'); 
+}
 @font-face {
   font-family: "Roboto";
   font-style: normal;
@@ -47,11 +73,22 @@
   --gray: #9da4bb;
 }
 
-body {
+.logo{
+  font-family: Raleway;
+font-weight: 700;
+font-size: 26px;
+line-height:1.19;
+letter-spacing: 0.03em;
+color: #2196F3;
+text-decoration: none;
+}
+
+header {
   font-family: Roboto, sans-serif;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
+
   color: var(--black);
 }
 .link {
@@ -60,5 +97,13 @@ body {
 }
 .link:hover,
 .link:focus {
-  color: #2196f3;
+  color: var(--accent-cl);
+}
+.section-title {
+  font-family: Roboto;sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--black)
 }
