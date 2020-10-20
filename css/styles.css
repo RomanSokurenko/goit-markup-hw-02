@@ -139,3 +139,65 @@ line-height: 1.875;
 letter-spacing: 0.03em;
 color: var(--gray);
 }
+
+.list{
+  font-family: Roboto;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color:var(--black);
+
+}
+
+.text{
+  font-family: Roboto;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color:var(--gray);
+}
+
+.section-job{
+  font-family: Roboto;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+color:var(--black);
+
+}
+.our-team{
+  font-family: Roboto;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.1875;
+letter-spacing: 0.03em;
+color:var(--black);
+}
+.position{
+  font-family: Roboto;
+font-size: 16px;
+line-height: 1.1875;
+letter-spacing: 0.03em;
+color:var(--gray);
+
+}
+.tel{
+font-family: Roboto;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color:var(--gray);
+}
+.mail{
+font-family: Roboto;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color:var(--gray);
+}
+
